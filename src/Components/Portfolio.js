@@ -58,11 +58,11 @@ const Portfolio = () => {
           <div className="project"  id="project">
           <h2 className='projectTitle'>projects</h2>
               <div className="project1">
-                <img src={project1}  alt='Portfolio page'/>
+               <a href="https://github.com/mani-chand/Portfolio"> <img src={project1}  alt='Portfolio page'/></a>
                 <b className='projectName'>Portfolio page</b>
               </div>
               <div  className="project2">
-              <img src={project2}  alt='Notes app'/>
+             <a href='https://github.com/mani-chand/Note'> <img src={project2}  alt='Notes app'/></a>
                 <b className='projectName'>Notes app</b>
               </div>
 
