@@ -58,11 +58,11 @@ const Portfolio = () => {
           <div className="project"  id="project">
           <h2 className='projectTitle'>projects</h2>
               <div className="project1">
-               <a href="https://github.com/mani-chand/Portfolio"> <img src={project1}  alt='Portfolio page'/></a>
+               <a href="https://github.com/mani-chand/Portfolio" target="_blank"> <img src={project1}  alt='Portfolio page'/></a>
                 <b className='projectName'>Portfolio page</b>
               </div>
               <div  className="project2">
-             <a href='https://github.com/mani-chand/Note'> <img src={project2}  alt='Notes app'/></a>
+             <a href='https://github.com/mani-chand/Note' target="_blank"> <img src={project2}  alt='Notes app'/></a>
                 <b className='projectName'>Notes app</b>
               </div>
 
@@ -70,10 +70,10 @@ const Portfolio = () => {
           <div className="socialNetwork" id="socialNetwork">
           <h2 className='projectTitle'>socialNetwork</h2>
            <div className="TechNetwork">
-           <a href='https://github.com/mani-chand'><img src={github}/></a>
+           <a href='https://github.com/mani-chand' target="_blank"><img src={github}/></a>
            </div>
            <div className="TechNetwork">
-           <a href='https://twitter.com/Manichand01'><img src={Twitter}/></a>
+           <a href='https://twitter.com/Manichand01' target="_blank"><img src={Twitter}/></a>
            </div>
           </div>
           
